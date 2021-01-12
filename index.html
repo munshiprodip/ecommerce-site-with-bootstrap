@@ -10,26 +10,60 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="#">uniqueye</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-               
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="nav justify-content-start">
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span><i class="fab fa-twitter"></i></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span><i class="fab fa-pinterest-p"></i></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span><i class="fab fa-vimeo-v"></i></span></a>
+              </li>
+            </ul>
+          </div>
+          
 
-                <ul class="navbar-nav navbar-right">
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                </ul>
-              </div>
-                
-              
+          <div class="col-md-6">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-cart-plus"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="far fa-heart"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="far fa-user"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <a class="navbar-brand" href="#">uniqueye</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#">Pricing</a>
+              </ul>
             </div>
-          </nav>
+          </div>
+        </nav>
     </header>
 
 
@@ -66,7 +100,7 @@
         </div>
 
         <div class="container-fluid">
-            <div class="row pt-5">
+            <div class="row pt-2 g-2">
                 <div class="col-md-4"><img class="w-100" src="images/1.jpg" alt=""></div>
                 <div class="col-md-4"><img class="w-100" src="images/2.jpg" alt=""></div>
                 <div class="col-md-4"><img class="w-100" src="images/3.jpg" alt=""></div>
@@ -78,8 +112,22 @@
 
     <section id="featured_product" class="pt-5">
         <div class="container ">
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
+            <ul class="nav justify-content-center mb-5  border-bottom">
+              <li class="nav-item ">
+                <a class="nav-link" href="#">BEST SELLER</a>
+              </li>
+              <li class="nav-item border-3 border-bottom border-danger">
+                <a class="nav-link fw-bold text-dark" href="#">NEW ARRIVAL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FEATURED</a>
+              </li>
+            </ul>
+
+
+
+            <div class="row row-cols-2 row-cols-md-4 row-cols-sm-3 row-cols-xs-2">
+                <div class="col product-item p-2 bg-white">
                     <div class="card h-100 border-0">
                       <img src="images/s1.jpg" class="card-img-top" alt="...">
                       <div class="card-body p-0">
@@ -97,13 +145,13 @@
                       </div>
                       <div class="card-footer border-0 bg-transparent p-0">
                         <strong>$500  <span class="text-decoration-line-through text-danger">$650</span></strong>
-                        <div class="pt-3 w-100">
+                        <div class="w-100 card-batton   ">
                             <button class="btn btn-sm btn-outline-success">BUY NOW</button>
                             <span class="nav float-end d-flex justify-content-around">
-                                <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-cart-plus"></i></button>
-                                <button class="btn btn-sm btn-outline-primary ms-1"><i class="far fa-heart"></i></button>
-                                <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-retweet"></i></button>
-                                <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-share-alt"></i></button>
+                                <a href="#" ><i class="fas fa-cart-plus"></i></a>
+                                <a href="#" ><i class="far fa-heart"></i></a>
+                                <a href="#" ><i class="fas fa-retweet"></i></a>
+                                <a href="#" ><i class="fas fa-share-alt"></i></a>
                             </span>
                         </div>
                         
@@ -111,9 +159,9 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col product-item p-2 bg-white">
                     <div class="card h-100 border-0">
-                      <img src="images/s1.jpg" class="card-img-top" alt="...">
+                      <img src="images/s2.jpg" class="card-img-top" alt="...">
                       <div class="card-body p-0">
                         <p class="card-text pt-2">
                             This is a wider card with 
@@ -127,9 +175,9 @@
                             
                         </p>
                       </div>
-                      <div class="card-footer border-0 bg-transparent p-0">
+                      <div class="card-footer  border-0 bg-transparent p-0">
                         <strong>$500  <span class="text-decoration-line-through text-danger">$650</span></strong>
-                        <div class="pt-3 w-100">
+                        <div class="w-100 card-batton   ">
                             <button class="btn btn-sm btn-outline-success">BUY NOW</button>
                             <span class="nav float-end d-flex justify-content-around">
                                 <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-cart-plus"></i></button>
@@ -143,9 +191,9 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col product-item p-2 bg-white">
                   <div class="card h-100 border-0">
-                    <img src="images/s1.jpg" class="card-img-top" alt="...">
+                    <img src="images/s3.jpg" class="card-img-top" alt="...">
                     <div class="card-body p-0">
                       <p class="card-text pt-2">
                           This is a wider card with 
@@ -161,7 +209,7 @@
                     </div>
                     <div class="card-footer border-0 bg-transparent p-0">
                       <strong>$500  <span class="text-decoration-line-through text-danger">$650</span></strong>
-                      <div class="pt-3 w-100">
+                      <div class="w-100 card-batton   ">
                           <button class="btn btn-sm btn-outline-success">BUY NOW</button>
                           <span class="nav float-end d-flex justify-content-around">
                               <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-cart-plus"></i></button>
@@ -175,9 +223,9 @@
                   </div>
               </div>
 
-              <div class="col">
+              <div class="col product-item p-2 bg-white">
                 <div class="card h-100 border-0">
-                  <img src="images/s1.jpg" class="card-img-top" alt="...">
+                  <img src="images/s4.jpg" class="card-img-top" alt="...">
                   <div class="card-body p-0">
                     <p class="card-text pt-2">
                         This is a wider card with 
@@ -193,7 +241,7 @@
                   </div>
                   <div class="card-footer border-0 bg-transparent p-0">
                     <strong>$500  <span class="text-decoration-line-through text-danger">$650</span></strong>
-                    <div class="pt-3 w-100">
+                    <div class="w-100 card-batton   ">
                         <button class="btn btn-sm btn-outline-success">BUY NOW</button>
                         <span class="nav float-end d-flex justify-content-around">
                             <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-cart-plus"></i></button>
@@ -207,9 +255,9 @@
                 </div>
             </div>
 
-                <div class="col">
+                <div class="col product-item p-2 bg-white">
                     <div class="card h-100 border-0">
-                      <img src="images/s1.jpg" class="card-img-top" alt="...">
+                      <img src="images/s5.jpg" class="card-img-top" alt="...">
                       <div class="card-body p-0">
                         <p class="card-text pt-2">
                             This is a wider card with 
@@ -225,7 +273,7 @@
                       </div>
                       <div class="card-footer border-0 bg-transparent p-0">
                         <strong>$500  <span class="text-decoration-line-through text-danger">$650</span></strong>
-                        <div class="pt-3 w-100">
+                        <div class="w-100 card-batton   ">
                             <button class="btn btn-sm btn-outline-success">BUY NOW</button>
                             <span class="nav float-end d-flex justify-content-around">
                                 <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-cart-plus"></i></button>
@@ -239,9 +287,9 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col product-item p-2 bg-white">
                     <div class="card h-100 border-0">
-                      <img src="images/s1.jpg" class="card-img-top" alt="...">
+                      <img src="images/s6.jpg" class="card-img-top" alt="...">
                       <div class="card-body p-0">
                         <p class="card-text pt-2">
                             This is a wider card with 
@@ -257,7 +305,7 @@
                       </div>
                       <div class="card-footer border-0 bg-transparent p-0">
                         <strong>$500  <span class="text-decoration-line-through text-danger">$650</span></strong>
-                        <div class="pt-3 w-100">
+                        <div class="w-100 card-batton   ">
                             <button class="btn btn-sm btn-outline-success">BUY NOW</button>
                             <span class="nav float-end d-flex justify-content-around">
                                 <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-cart-plus"></i></button>
@@ -271,9 +319,9 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col product-item p-2 bg-white">
                     <div class="card h-100 border-0">
-                      <img src="images/s1.jpg" class="card-img-top" alt="...">
+                      <img src="images/s7.jpg" class="card-img-top" alt="...">
                       <div class="card-body p-0">
                         <p class="card-text pt-2">
                             This is a wider card with 
@@ -289,7 +337,7 @@
                       </div>
                       <div class="card-footer border-0 bg-transparent p-0">
                         <strong>$500  <span class="text-decoration-line-through text-danger">$650</span></strong>
-                        <div class="pt-3 w-100">
+                        <div class="w-100 card-batton   ">
                             <button class="btn btn-sm btn-outline-success">BUY NOW</button>
                             <span class="nav float-end d-flex justify-content-around">
                                 <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-cart-plus"></i></button>
@@ -303,9 +351,9 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col product-item p-2 bg-white">
                     <div class="card h-100 border-0">
-                      <img src="images/s1.jpg" class="card-img-top" alt="...">
+                      <img src="images/s2.jpg" class="card-img-top" alt="...">
                       <div class="card-body p-0">
                         <p class="card-text pt-2">
                             This is a wider card with 
@@ -321,7 +369,7 @@
                       </div>
                       <div class="card-footer border-0 bg-transparent p-0">
                         <strong>$500  <span class="text-decoration-line-through text-danger">$650</span></strong>
-                        <div class="pt-3 w-100">
+                        <div class="w-100 card-batton   ">
                             <button class="btn btn-sm btn-outline-success">BUY NOW</button>
                             <span class="nav float-end d-flex justify-content-around">
                                 <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-cart-plus"></i></button>
@@ -356,13 +404,353 @@
 
 
 
+    <section id="featured_product" class="pt-5">
+      <div class="container ">
+          <ul class="nav justify-content-center mb-5  border-bottom">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">BEST SELLER</a>
+            </li>
+            <li class="nav-item border-bottom border-danger">
+              <a class="nav-link" href="#">NEW ARRIVAL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FEATURED</a>
+            </li>
+          </ul>
+
+
+
+          <div class="row row-cols-1 row-cols-md-5 g-5">
+              <div class="col product-item p-2 bg-white">
+                  <div class="card h-100 border-0">
+                    <img src="images/s1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-0">
+                      <p class="card-text pt-2">
+                          This is a wider card with 
+                          <span class="float-end text-danger">
+                              <i class="fa fa-star"></i> 
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star text-dark"></i> 
+                          </span> 
+                          
+                      </p>
+                    </div>
+                    <div class="card-footer border-0 bg-transparent p-0">
+                      <strong>$500  <span class="text-decoration-line-through text-danger">$650</span></strong>
+                      <div class="w-100 card-batton   ">
+                          <button class="btn btn-sm btn-outline-success">BUY NOW</button>
+                          <span class="nav float-end d-flex justify-content-around">
+                              <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-cart-plus"></i></button>
+                              <button class="btn btn-sm btn-outline-primary ms-1"><i class="far fa-heart"></i></button>
+                              <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-retweet"></i></button>
+                          </span>
+                      </div>
+                      
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col product-item p-2 bg-white">
+                  <div class="card h-100 border-0">
+                    <img src="images/s2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-0">
+                      <p class="card-text pt-2">
+                          This is a wider card with 
+                          <span class="float-end text-danger">
+                              <i class="fa fa-star"></i> 
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star text-dark"></i> 
+                          </span> 
+                          
+                      </p>
+                    </div>
+                    <div class="card-footer border-0 bg-transparent p-0">
+                      <strong>$500  <span class="text-decoration-line-through text-danger">$650</span></strong>
+                      <div class="w-100 card-batton   ">
+                          <button class="btn btn-sm btn-outline-success">BUY NOW</button>
+                          <span class="nav float-end d-flex justify-content-around">
+                              <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-cart-plus"></i></button>
+                              <button class="btn btn-sm btn-outline-primary ms-1"><i class="far fa-heart"></i></button>
+                              <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-retweet"></i></button>
+                          </span>
+                      </div>
+                      
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col product-item p-2 bg-white">
+                <div class="card h-100 border-0">
+                  <img src="images/s3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body p-0">
+                    <p class="card-text pt-2">
+                        This is a wider card with 
+                        <span class="float-end text-danger">
+                            <i class="fa fa-star"></i> 
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star text-dark"></i> 
+                        </span> 
+                        
+                    </p>
+                  </div>
+                  <div class="card-footer border-0 bg-transparent p-0">
+                    <strong>$500  <span class="text-decoration-line-through text-danger">$650</span></strong>
+                    <div class="w-100 card-batton   ">
+                        <button class="btn btn-sm btn-outline-success">BUY NOW</button>
+                        <span class="nav float-end d-flex justify-content-around">
+                            <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-cart-plus"></i></button>
+                            <button class="btn btn-sm btn-outline-primary ms-1"><i class="far fa-heart"></i></button>
+                            <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-retweet"></i></button>
+                        </span>
+                    </div>
+                    
+                  </div>
+                </div>
+            </div>
+
+            <div class="col product-item p-2 bg-white">
+              <div class="card h-100 border-0">
+                <img src="images/s4.jpg" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                  <p class="card-text pt-2">
+                      This is a wider card with 
+                      <span class="float-end text-danger">
+                          <i class="fa fa-star"></i> 
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star text-dark"></i> 
+                      </span> 
+                      
+                  </p>
+                </div>
+                <div class="card-footer border-0 bg-transparent p-0">
+                  <strong>$500  <span class="text-decoration-line-through text-danger">$650</span></strong>
+                  <div class="w-100 card-batton   ">
+                      <button class="btn btn-sm btn-outline-success">BUY NOW</button>
+                      <span class="nav float-end d-flex justify-content-around">
+                          <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-cart-plus"></i></button>
+                          <button class="btn btn-sm btn-outline-primary ms-1"><i class="far fa-heart"></i></button>
+                          <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-retweet"></i></button>
+                      </span>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col product-item p-2 bg-white">
+              <div class="card h-100 border-0">
+                <img src="images/s4.jpg" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                  <p class="card-text pt-2">
+                      This is a wider card with 
+                      <span class="float-end text-danger">
+                          <i class="fa fa-star"></i> 
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star text-dark"></i> 
+                      </span> 
+                      
+                  </p>
+                </div>
+                <div class="card-footer border-0 bg-transparent p-0">
+                  <strong>$500  <span class="text-decoration-line-through text-danger">$650</span></strong>
+                  <div class="w-100 card-batton   ">
+                      <button class="btn btn-sm btn-outline-success">BUY NOW</button>
+                      <span class="nav float-end d-flex justify-content-around">
+                          <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-cart-plus"></i></button>
+                          <button class="btn btn-sm btn-outline-primary ms-1"><i class="far fa-heart"></i></button>
+                          <button class="btn btn-sm btn-outline-primary ms-1"><i class="fas fa-retweet"></i></button>
+                      </span>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+  </section>
 
 
 
 
 
+  <section id="rview" class="mt-5">
+    <div class="container d-flex justify-content-center align-items-center h-100">
+      <div class="coustomer-review text-center">
+        <p class="m-0">FROM HAPPY CUSTOMERS</p>
+        <h1 class="pb-3 fs-2">What Client Say</h1>
+        <div class="review-slider">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h3 class="text-uppercase fs-6">william james</h3>
+                <p>CEO - Vinova</p>
+                <div class="comment px-5 mx-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, doloribus. Odio, consectetur voluptates? Nihil corrupti voluptatem modi velit iusto ipsa magnam omnis veritatis quasi. Tempore quod dolor, iste maxime nulla earum, corrupti officiis iusto quo eius incidunt odit quidem veniam. Quia earum perspiciatis nobis eum debitis doloremque recusandae ut cupiditate!
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <h3 class="text-uppercase fs-6">william james 2</h3>
+                <p>CEO - Vinova</p>
+                <div class="comment px-5 mx-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, doloribus. Odio, consectetur voluptates? Nihil corrupti voluptatem modi velit iusto ipsa magnam omnis veritatis quasi. Tempore quod dolor, iste maxime nulla earum, corrupti officiis iusto quo eius incidunt odit quidem veniam.Quia earum perspiciatis nobis eum debitis doloremque 
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <h3 class="text-uppercase fs-6">william james 2</h3>
+                <p>CEO - Vinova</p>
+                <div class="comment px-5 mx-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, doloribus. Odio, consectetur voluptates? Nihil corrupti voluptatem modi velit iusto ipsa magnam omnis veritatis quasi. Tempore quod dolor, iste maxime nulla earum, corrupti officiis iusto quo eius incidunt odit quidem veniam. Quia earum perspiciatis nobis eum debitis doloremque 
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
 
 
+<section>
+  <div class="container">
+    <ul class="nav justify-content-center mb-3 pt-5  border-bottom">
+      <li class="nav-item border-bottom border-danger">
+        <a class="nav-link text-uppercase" href="#">Latest post</a>
+      </li>
+    </ul>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="d-flex">
+          <div class="col-md-6 p-3">
+            <img class="w-100" src="images/w1.jpg" alt="">
+          </div>
+          <div class="col-md-6 p-3">
+            <small class="text-uppercase text-muted d-block pb-2"><span> <i class="far fa-user"></i> </span> Lorem, ipsum dolor.</small>
+            <h3 class="fs-5 py-2">Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quia eum sit molestiae quas recusandae...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="d-flex">
+          <div class="col-md-6 p-3">
+            <img class="w-100" src="images/w2.jpg" alt="">
+          </div>
+          <div class="col-md-6 p-3">
+            <small class="text-uppercase text-muted d-block pb-2"><span> <i class="far fa-user"></i> </span> Lorem, ipsum dolor.</small>
+            <h3 class="fs-5 py-2">Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quia eum sit molestiae quas recusandae...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="d-flex">
+          <div class="col-md-6 p-3">
+            <img class="w-100" src="images/w2.jpg" alt="">
+          </div>
+          <div class="col-md-6 p-3">
+            <small class="text-uppercase text-muted d-block pb-2"><span> <i class="far fa-user"></i> </span> Lorem, ipsum dolor.</small>
+            <h3 class="fs-5 py-2">Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quia eum sit molestiae quas recusandae...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="d-flex">
+          <div class="col-md-6 p-3">
+            <img class="w-100" src="images/w1.jpg" alt="">
+          </div>
+          <div class="col-md-6 p-3">
+            <small class="text-uppercase text-muted d-block pb-2"><span> <i class="far fa-user"></i> </span> Lorem, ipsum dolor.</small>
+            <h3 class="fs-5 py-2">Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quia eum sit molestiae quas recusandae...</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 d-flex justify-content-center align-items-center">
+        <div class="col-4 text-muted" style="font-size: 70px;">
+          <i class="fas fa-shipping-fast"></i>
+        </div>
+        <div class="col-8 py-3">
+          <h3 class="m-0 fs-4 text-capitalize">Lorem ipsum dolor</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iure, similique quas quam alias vitae.</p>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center align-items-center border border-top-0">
+        <div class="col-4 text-muted" style="font-size: 70px;">
+          <i class="fab fa-shopify"></i>
+        </div>
+        <div class="col-8 py-3">
+          <h3 class="m-0 fs-4 text-capitalize">Lorem ipsum dolor</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iure, similique quas quam alias vitae.</p>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center align-items-center ">
+        <div class="col-4 text-muted" style="font-size: 70px;">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <div class="col-8 py-3">
+          <h3 class="m-0 fs-4 text-capitalize">Lorem ipsum dolor</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iure, similique quas quam alias vitae.</p>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center align-items-center border-top">
+        <div class="col-4 text-muted" style="font-size: 70px;">
+          <i class="fas fa-handshake"></i>
+        </div>
+        <div class="col-8 py-3">
+          <h3 class="m-0 fs-4 text-capitalize">Lorem ipsum dolor</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iure, similique quas quam alias vitae.</p>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center align-items-center border border-bottom-0">
+        <div class="col-4 text-muted" style="font-size: 70px;">
+          <i class="fas fa-gift"></i>
+        </div>
+        <div class="col-8 py-3">
+          <h3 class="m-0 fs-4 text-capitalize">Lorem ipsum dolor</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iure, similique quas quam alias vitae.</p>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center align-items-center border-top">
+        <div class="col-4 text-muted" style="font-size: 70px;">
+          <i class="fas fa-reply "></i>
+        </div>
+        <div class="col-8 py-3">
+          <h3 class="m-0 fs-4 text-capitalize">Lorem ipsum dolor</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iure, similique quas quam alias vitae.</p>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+</section>
 
 
 

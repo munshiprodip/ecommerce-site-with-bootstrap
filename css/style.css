@@ -1,0 +1,23 @@
+.product-item{
+   transition: all 0.3s;
+}
+.product-item:hover{
+    box-shadow: 0px 0px 21px -5px #010101;
+    z-index: 1;
+}
+.product-item:hover .card-batton{
+    display: block !important;
+}
+
+.nav-link{
+    color: #909090;
+}
+
+#rview{
+    height: 50vh;
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
