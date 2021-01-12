@@ -1,0 +1,7 @@
+.product-item{
+   transition: all 0.3s;
+}
+.product-item:hover{
+    box-shadow: 0px 0px 21px -5px #010101;
+    z-index: 1;
+}
